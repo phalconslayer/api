@@ -24,7 +24,7 @@ class __TwigTemplate_08057cecff701c709c0a90652c11d9fb057a4a1d77b40dda7f39594efc2
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 2
-        $context["__internal_a2bd4e832f428c43272ca127a79ec213574d6949e4ca9c39c32c4103b76d5c60"] = $this->loadTemplate("macros.twig", "traits.twig", 2);
+        $context["__internal_c0a6e7a4ea88248509216eeea3fd0462b3204e60656b66b7906a16ae88218d42"] = $this->loadTemplate("macros.twig", "traits.twig", 2);
         // line 1
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
@@ -64,7 +64,7 @@ class __TwigTemplate_08057cecff701c709c0a90652c11d9fb057a4a1d77b40dda7f39594efc2
                     <div class=\"col-md-6\">
                         ";
                 // line 16
-                echo $context["__internal_a2bd4e832f428c43272ca127a79ec213574d6949e4ca9c39c32c4103b76d5c60"]->getclass_link($context["class"], true);
+                echo $context["__internal_c0a6e7a4ea88248509216eeea3fd0462b3204e60656b66b7906a16ae88218d42"]->getclass_link($context["class"], true);
                 echo "
                     </div>
                     <div class=\"col-md-6\">

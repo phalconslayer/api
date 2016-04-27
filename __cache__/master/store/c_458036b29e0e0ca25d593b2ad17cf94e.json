@@ -8,7 +8,7 @@
     "namespace": "Clarity\\Exceptions",
     "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Exceptions\/Handler.php",
     "relative_file": null,
-    "hash": "fc389a37c5a87be8857dffb7fc834fdded7e1f1f",
+    "hash": "dbba58b1c10bddeb34a1e0900cceaa7371ac72c1",
     "parent": "Exception",
     "modifiers": "Stmt_Class",
     "is_trait": false,
@@ -225,7 +225,7 @@
         },
         "render": {
             "name": "render",
-            "line": 90,
+            "line": 91,
             "short_desc": "Render the exception",
             "long_desc": "",
             "hint": [
@@ -239,16 +239,19 @@
             "modifiers": "1",
             "is_by_ref": "",
             "exceptions": [],
-            "errors": [
-                "\"2\" @param tags are expected but only \"1\" found"
-            ],
+            "errors": [],
             "parameters": {
                 "e": {
                     "name": "e",
-                    "line": 90,
-                    "short_desc": null,
+                    "line": 91,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
                     "tags": [],
                     "modifiers": "",
                     "default": null,
@@ -256,10 +259,15 @@
                 },
                 "status_code": {
                     "name": "status_code",
-                    "line": 90,
-                    "short_desc": null,
+                    "line": 91,
+                    "short_desc": "",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
                     "tags": [],
                     "modifiers": "",
                     "default": "null",

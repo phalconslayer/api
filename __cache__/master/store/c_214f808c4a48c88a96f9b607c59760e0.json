@@ -8,7 +8,7 @@
     "namespace": "Clarity\\Support\\Phalcon\\Mvc",
     "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phalcon\/Mvc\/View.php",
     "relative_file": null,
-    "hash": "045818de25320be56805f2bc36a87f8e49fb092f",
+    "hash": "d8778f8916a963c80aeb106986758d92edc4e5e2",
     "parent": "Phalcon\\Mvc\\View",
     "modifiers": "Stmt_Class",
     "is_trait": false,
@@ -94,16 +94,19 @@
             "modifiers": "1",
             "is_by_ref": "",
             "exceptions": [],
-            "errors": [
-                "The \"value\" @param tag variable name is wrong (should be \"val\")"
-            ],
+            "errors": [],
             "parameters": {
                 "key": {
                     "name": "key",
                     "line": 95,
-                    "short_desc": null,
+                    "short_desc": "The variable name",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
                     "tags": [],
                     "modifiers": "",
                     "default": null,
@@ -112,9 +115,26 @@
                 "val": {
                     "name": "val",
                     "line": 95,
-                    "short_desc": null,
+                    "short_desc": "The value of variable",
                     "long_desc": null,
-                    "hint": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "bool",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ],
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
                     "tags": [],
                     "modifiers": "",
                     "default": null,
