@@ -1,0 +1,69 @@
+{
+    "name": "Clarity\\TestSuite\\Behat\\Mink\\Adapters\\Goutte",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\TestSuite\\Behat\\Mink\\Adapters",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/TestSuite\/Behat\/Mink\/Adapters\/Goutte.php",
+    "relative_file": null,
+    "hash": "9b4be51f385d061a1e79a7658bb3755df01d7215",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ReflectionClass": "ReflectionClass",
+        "GoutteDriver": "Behat\\Mink\\Driver\\GoutteDriver"
+    },
+    "errors": [],
+    "interfaces": {
+        "Clarity\\TestSuite\\Behat\\Mink\\Adapters\\DriverInterface": "Clarity\\TestSuite\\Behat\\Mink\\Adapters\\DriverInterface"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 23,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "args": {
+                    "name": "args",
+                    "line": 23,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "driver": {
+            "name": "driver",
+            "line": 29,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\Queue",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'queue'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/Queue.php",
+    "relative_file": null,
+    "hash": "9ea876e9b1833e99296130c31759915f071e46d7",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

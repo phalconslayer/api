@@ -1,0 +1,229 @@
+{
+    "name": "Clarity\\Kernel\\Kernel",
+    "line": 23,
+    "short_desc": "Acts like a manager that initializes all the configurations\/environments and module.",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Kernel",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Kernel\/Kernel.php",
+    "relative_file": null,
+    "hash": "f0793633c914bd159288818048a21c72a13d6736",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Log": "Clarity\\Providers\\Log",
+        "ServiceContainer": "Clarity\\Services\\Service\\ServiceContainer"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Clarity\\Kernel\\KernelTrait": "Clarity\\Kernel\\KernelTrait"
+    },
+    "properties": [],
+    "methods": {
+        "initialize": {
+            "name": "initialize",
+            "line": 60,
+            "short_desc": "Initialize load",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPath": {
+            "name": "setPath",
+            "line": 76,
+            "short_desc": "Set the path",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 76,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setModules": {
+            "name": "setModules",
+            "line": 88,
+            "short_desc": "Set the modules",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "modules": {
+                    "name": "modules",
+                    "line": 88,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setEnvironment": {
+            "name": "setEnvironment",
+            "line": 100,
+            "short_desc": "Set the environment",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "env": {
+                    "name": "env",
+                    "line": 100,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getEnvironment": {
+            "name": "getEnvironment",
+            "line": 112,
+            "short_desc": "Get the environment",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Current environment",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "modules": {
+            "name": "modules",
+            "line": 122,
+            "short_desc": "Register modules",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "render": {
+            "name": "render",
+            "line": 134,
+            "short_desc": "Render the system content",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "run": {
+            "name": "run",
+            "line": 145,
+            "short_desc": "Here, you will be loading the system by defining the module",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "module_name": {
+                    "name": "module_name",
+                    "line": 145,
+                    "short_desc": "The module name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,45 @@
+{
+    "name": "Clarity\\Providers\\CollectionManager",
+    "line": 22,
+    "short_desc": "This provider controls the initialization of models, keeping record\nof relations between the different models of the application.",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/CollectionManager.php",
+    "relative_file": null,
+    "hash": "e5fbd2029544ae3b13acebe90750ca6708a72bc0",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseCollectionManager": "Phalcon\\Mvc\\Collection\\Manager"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 37,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

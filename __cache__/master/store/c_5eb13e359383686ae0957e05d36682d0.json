@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\View",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'view'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/View.php",
+    "relative_file": null,
+    "hash": "a0bacabcfe5bed536be09b8e3c3c0002f20603a6",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

@@ -1,0 +1,45 @@
+{
+    "name": "Clarity\\Providers\\FlashBag",
+    "line": 23,
+    "short_desc": "Flash messages are used to notify the user about the state of actions he\/she\nmade or simply show information to the users.",
+    "long_desc": "These kinds of messages can be generated using this component.",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/FlashBag.php",
+    "relative_file": null,
+    "hash": "6e196d2d5c19ec65c98e1607f74bc83598c0a73f",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "PhalconFlashSession": "Phalcon\\Flash\\Session"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 38,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

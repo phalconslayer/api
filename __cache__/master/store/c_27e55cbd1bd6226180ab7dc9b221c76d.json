@@ -1,0 +1,47 @@
+{
+    "name": "Clarity\\Console\\Mail\\InlinerCommand",
+    "line": 23,
+    "short_desc": "A console command that converts templates into inlined",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console\\Mail",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/Mail\/InlinerCommand.php",
+    "relative_file": null,
+    "hash": "8a33e9a047a55bef3c61317731005e857547dfbd",
+    "parent": "Clarity\\Console\\SlayerCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SlayerCommand": "Clarity\\Console\\SlayerCommand",
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "CssToInlineStyles": "TijsVerkoyen\\CssToInlineStyles\\CssToInlineStyles"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 115,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

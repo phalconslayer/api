@@ -1,0 +1,62 @@
+{
+    "name": "Clarity\\Console\\CLI",
+    "line": 21,
+    "short_desc": "A cli class that mock the same cli commands",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/CLI.php",
+    "relative_file": null,
+    "hash": "527951c0012cea1135437644f7ddd4c3bac3ef76",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Process": "Symfony\\Component\\Process\\Process"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "bash": {
+            "name": "bash",
+            "line": 29,
+            "short_desc": "It executes all the requested commands",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The output",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "lines": {
+                    "name": "lines",
+                    "line": 29,
+                    "short_desc": "An array lists of all bash commands",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

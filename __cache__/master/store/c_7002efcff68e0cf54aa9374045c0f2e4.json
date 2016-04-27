@@ -1,0 +1,25 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Seed\\AbstractSeed",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Seed",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Seed\/AbstractSeed.php",
+    "relative_file": null,
+    "hash": "bbe599b90e4ac1c4c3a37324832fd86b0b9c2656",
+    "parent": "Phinx\\Seed\\AbstractSeed",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseAbstractSeed": "Phinx\\Seed\\AbstractSeed"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

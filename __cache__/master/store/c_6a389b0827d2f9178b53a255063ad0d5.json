@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\Request",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'request'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/Request.php",
+    "relative_file": null,
+    "hash": "00ce87069ac2645338620c06c146fd821c7a83d8",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

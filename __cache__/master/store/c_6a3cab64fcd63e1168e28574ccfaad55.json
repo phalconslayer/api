@@ -1,0 +1,206 @@
+{
+    "name": "Clarity\\Providers\\DB",
+    "line": 33,
+    "short_desc": "This provider handles the relational database adapters, that lives inside the\nconfiguration file.",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "see": [
+            [
+                "\\Phalcon\\Db",
+                "and",
+                "its",
+                "related",
+                "classes",
+                "provide",
+                "a",
+                "simple",
+                "SQL",
+                "database",
+                "interface",
+                "for",
+                "Phalcon",
+                "Framework.\nThe",
+                "@see",
+                "\\Phalcon\\Db",
+                "is",
+                "the",
+                "basic",
+                "class",
+                "you",
+                "use",
+                "to",
+                "connect",
+                "your",
+                "PHP",
+                "application",
+                "to",
+                "an",
+                "RDBMS.\nThere",
+                "is",
+                "a",
+                "different",
+                "adapter",
+                "class",
+                "for",
+                "each",
+                "brand",
+                "of",
+                "RDBMS.\nThis",
+                "component",
+                "is",
+                "intended",
+                "to",
+                "lower",
+                "level",
+                "database",
+                "operations.\nIf",
+                "you",
+                "want",
+                "to",
+                "interact",
+                "with",
+                "databases",
+                "using",
+                "higher",
+                "level",
+                "of",
+                "abstraction",
+                "use",
+                "Phalcon\\Mvc\\Model."
+            ],
+            [
+                "\\Phalcon\\Db",
+                "is",
+                "an",
+                "abstract",
+                "class.\nYou",
+                "only",
+                "can",
+                "use",
+                "it",
+                "with",
+                "a",
+                "database",
+                "adapter",
+                "like",
+                "@see",
+                "\\Phalcon\\Db\\Adapter\\Pdo"
+            ]
+        ]
+    },
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/DB.php",
+    "relative_file": null,
+    "hash": "30b5fb9b419288bbb2e264848f32ad0fae110f8d",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Exception": "Exception",
+        "Logger": "Monolog\\Logger",
+        "StreamHandler": "Monolog\\Handler\\StreamHandler",
+        "EventsManager": "Phalcon\\Events\\Manager"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "adapters": {
+            "name": "adapters",
+            "line": 50,
+            "short_desc": "Get the database adapters",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "boot": {
+            "name": "boot",
+            "line": 61,
+            "short_desc": "The process after all di are loaded",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "register": {
+            "name": "register",
+            "line": 86,
+            "short_desc": "Registered process based on DI scope",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "connection": {
+            "name": "connection",
+            "line": 97,
+            "short_desc": "Instantiate the class and get the adapter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "An adapter to use you",
+            "tags": [],
+            "modifiers": "9",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "selected_adapter": {
+                    "name": "selected_adapter",
+                    "line": 97,
+                    "short_desc": "The adapter name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

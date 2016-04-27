@@ -1,0 +1,28 @@
+{
+    "name": "Clarity\\Kernel\\KernelTrait",
+    "line": 25,
+    "short_desc": "A class trait of @see (Clarity\\Kernel\\Kernel)",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Kernel",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Kernel\/KernelTrait.php",
+    "relative_file": null,
+    "hash": "320ff6e715631af48a8d7e8805ed7fe9585949f1",
+    "parent": null,
+    "modifiers": "Stmt_Trait",
+    "is_trait": true,
+    "is_interface": false,
+    "aliases": {
+        "Dotenv": "Dotenv\\Dotenv",
+        "Config": "Phalcon\\Config",
+        "FactoryDefault": "Phalcon\\Di\\FactoryDefault",
+        "ServiceContainer": "Clarity\\Services\\Service\\ServiceContainer"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

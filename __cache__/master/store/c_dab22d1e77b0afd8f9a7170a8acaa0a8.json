@@ -1,0 +1,46 @@
+{
+    "name": "Clarity\\Mail\\MailServiceProvider",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Mail",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Mail\/MailServiceProvider.php",
+    "relative_file": null,
+    "hash": "4c03c400261d9f089d836a1594391db3581fb1d4",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Exception": "Exception",
+        "ServiceProvider": "Clarity\\Providers\\ServiceProvider"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 24,
+            "short_desc": "Registered process based on DI scope",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

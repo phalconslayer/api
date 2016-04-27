@@ -1,0 +1,45 @@
+{
+    "name": "Clarity\\Providers\\BehatMink",
+    "line": 22,
+    "short_desc": "This provider instantiates the testing tool behat\/mink, that by\ndefault having the adapters to parse html requests.",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/BehatMink.php",
+    "relative_file": null,
+    "hash": "aa1868d08840b4cc7f26b322ca6e398d89b7e422",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Mink": "Clarity\\TestSuite\\Behat\\Mink\\Mink"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 37,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

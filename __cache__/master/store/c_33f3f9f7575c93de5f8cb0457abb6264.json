@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\Redirect",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'redirect'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/Redirect.php",
+    "relative_file": null,
+    "hash": "fcbd32c3e802fae6b80bcb88e119945384aa9961",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

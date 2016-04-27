@@ -1,0 +1,79 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Migration\\AbstractMigration",
+    "line": 26,
+    "short_desc": "This class extends the package @see robmorgan\\phinx AbstractMigration",
+    "long_desc": "We extended this to wrap the parent class, this will be used for future\nmodifications if needed, while the stub generated when calling db:migrate\nthrough brood, extends this class as well.",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Migration",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Migration\/AbstractMigration.php",
+    "relative_file": null,
+    "hash": "c8b8956e1e687a37a7272ed5eb26707a61b69746",
+    "parent": "Phinx\\Migration\\AbstractMigration",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Table": "Clarity\\Support\\Phinx\\Db\\Table",
+        "BaseAbstractMigration": "Phinx\\Migration\\AbstractMigration"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "table": {
+            "name": "table",
+            "line": 35,
+            "short_desc": "{@inheritdoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Clarity\\Support\\Phinx\\Db\\Table",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "table_name": {
+                    "name": "table_name",
+                    "line": 35,
+                    "short_desc": "The table name to be created\/updated",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "options": {
+                    "name": "options",
+                    "line": 35,
+                    "short_desc": "The options when migrating a tabke",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

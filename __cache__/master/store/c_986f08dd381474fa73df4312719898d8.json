@@ -1,0 +1,45 @@
+{
+    "name": "Clarity\\Providers\\Session",
+    "line": 22,
+    "short_desc": "This provider handles the available session adapters, wherein it manages\nthe user's activity or browser's unique session id",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Session.php",
+    "relative_file": null,
+    "hash": "134b00896f2a3c3ef9a03685b443f53231bb8267",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SessionFile": "Phalcon\\Session\\Adapter\\Files"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 47,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

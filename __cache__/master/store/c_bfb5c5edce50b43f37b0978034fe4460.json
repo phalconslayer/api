@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\Log",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'log'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/Log.php",
+    "relative_file": null,
+    "hash": "9724d91339ee04857230f922e47ea8e233c828f1",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

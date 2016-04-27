@@ -1,0 +1,152 @@
+{
+    "name": "Clarity\\Providers\\Module",
+    "line": 21,
+    "short_desc": "This provider manage all registered and injected modules",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Module.php",
+    "relative_file": null,
+    "hash": "9401e19ea7aa7f782da523d93ecb372dd3ac0051",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "PhalconSessionBag": "Phalcon\\Session\\Bag"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 36,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setModules": {
+            "name": "setModules",
+            "line": 47,
+            "short_desc": "This sets a batch of modules",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Clarity\\Providers\\Module",
+                    false
+                ]
+            ],
+            "hint_desc": "Returns itself",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "modules": {
+                    "name": "modules",
+                    "line": 47,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "setModule": {
+            "name": "setModule",
+            "line": 63,
+            "short_desc": "This set a single module",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\Clarity\\Providers\\Module",
+                    false
+                ]
+            ],
+            "hint_desc": "Returns itself",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 63,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "closure": {
+                    "name": "closure",
+                    "line": 63,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Closure",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "all": {
+            "name": "all",
+            "line": 80,
+            "short_desc": "This returns all the available modules",
+            "long_desc": "Which converted into an array format",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

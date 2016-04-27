@@ -1,0 +1,62 @@
+{
+    "name": "Clarity\\Console\\Vendor\\PublishCommand",
+    "line": 24,
+    "short_desc": "A console command that publishes a vendor's contents\/files\/configurations",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console\\Vendor",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/Vendor\/PublishCommand.php",
+    "relative_file": null,
+    "hash": "8e6a81e6361ed334f32aa0c6ae827c40edd582b0",
+    "parent": "Clarity\\Console\\SlayerCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Exception": "Exception",
+        "SlayerCommand": "Clarity\\Console\\SlayerCommand",
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 39,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "arguments": {
+            "name": "arguments",
+            "line": 84,
+            "short_desc": "{@inheritdoc}",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

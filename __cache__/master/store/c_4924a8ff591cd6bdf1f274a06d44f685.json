@@ -1,0 +1,47 @@
+{
+    "name": "Clarity\\Console\\Make\\ModelCommand",
+    "line": 23,
+    "short_desc": "A console command that generates a model template",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console\\Make",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/Make\/ModelCommand.php",
+    "relative_file": null,
+    "hash": "9b56d1a1538b96922113d585c1a7597502ddf87a",
+    "parent": "Clarity\\Console\\SlayerCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SlayerCommand": "Clarity\\Console\\SlayerCommand",
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 38,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

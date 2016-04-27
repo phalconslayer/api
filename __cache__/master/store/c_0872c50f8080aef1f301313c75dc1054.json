@@ -1,0 +1,49 @@
+{
+    "name": "Clarity\\Console\\Vendor\\NewCommand",
+    "line": 25,
+    "short_desc": "A console command that creates a new package",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console\\Vendor",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/Vendor\/NewCommand.php",
+    "relative_file": null,
+    "hash": "1e0baccdd45bf1796550ba46c191c36c4eafe35b",
+    "parent": "Clarity\\Console\\SlayerCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Exception": "Exception",
+        "SlayerCommand": "Clarity\\Console\\SlayerCommand",
+        "Composer": "Clarity\\Util\\Composer\\Builder",
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 87,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Clarity\\Console\\Server\\OptimizeCommand",
+    "line": 22,
+    "short_desc": "A console command that optimized the whole system",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console\\Server",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/Server\/OptimizeCommand.php",
+    "relative_file": null,
+    "hash": "445084da7a41f87ac8db24e270c964472cb5a1b4",
+    "parent": "Clarity\\Console\\SlayerCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "CLI": "Clarity\\Console\\CLI",
+        "SlayerCommand": "Clarity\\Console\\SlayerCommand"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 37,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

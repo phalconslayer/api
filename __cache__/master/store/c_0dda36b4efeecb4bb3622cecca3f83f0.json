@@ -1,0 +1,43 @@
+{
+    "name": "Clarity\\Providers\\Queue",
+    "line": 23,
+    "short_desc": "This provider manages the available queue adapters and creates\/instantiate in it",
+    "long_desc": "Activities like processing videos, resizing images or sending emails aren\u2019t\nsuitable to be executed online or in real time because it may slow the\nloading time of pages and severely impact the user experience.",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Queue.php",
+    "relative_file": null,
+    "hash": "c61356e42254fee93c0209d6706e0b7f11a356b0",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 38,
+            "short_desc": "Registered process based on DI scope",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

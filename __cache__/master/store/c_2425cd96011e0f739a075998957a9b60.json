@@ -1,0 +1,28 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait",
+    "line": 21,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Console\\Command\\Traits",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Console\/Command\/Traits\/ConfigurationTrait.php",
+    "relative_file": null,
+    "hash": "c1559e26b088dbe54ca291366ee894929f415470",
+    "parent": null,
+    "modifiers": "Stmt_Trait",
+    "is_trait": true,
+    "is_interface": false,
+    "aliases": {
+        "Exception": "Exception",
+        "Config": "Phinx\\Config\\Config",
+        "InputInterface": "Symfony\\Component\\Console\\Input\\InputInterface",
+        "OutputInterface": "Symfony\\Component\\Console\\Output\\OutputInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

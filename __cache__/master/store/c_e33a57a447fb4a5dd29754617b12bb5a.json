@@ -1,0 +1,425 @@
+{
+    "name": "Clarity\\Console\\SlayerCommand",
+    "line": 29,
+    "short_desc": "An abstract class that handles all slayer console",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/SlayerCommand.php",
+    "relative_file": null,
+    "hash": "823e4c0e265d5a57dbaaf2710add13f304253fa0",
+    "parent": "Symfony\\Component\\Console\\Command\\Command",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ServiceMagicMethods": "Clarity\\Services\\ServiceMagicMethods",
+        "Command": "Symfony\\Component\\Console\\Command\\Command",
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "Question": "Symfony\\Component\\Console\\Question\\Question",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument",
+        "InputInterface": "Symfony\\Component\\Console\\Input\\InputInterface",
+        "OutputInterface": "Symfony\\Component\\Console\\Output\\OutputInterface",
+        "ConfirmationQuestion": "Symfony\\Component\\Console\\Question\\ConfirmationQuestion",
+        "InvalidOptionException": "Symfony\\Component\\Console\\Exception\\InvalidOptionException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Clarity\\Services\\ServiceMagicMethods": "Clarity\\Services\\ServiceMagicMethods"
+    },
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 75,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "17",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "info": {
+            "name": "info",
+            "line": 252,
+            "short_desc": "This prints-out an info colored message",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "message": {
+                    "name": "message",
+                    "line": 252,
+                    "short_desc": "The message to be printed",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "line": {
+            "name": "line",
+            "line": 263,
+            "short_desc": "This prints-out a line colored message",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "message": {
+                    "name": "message",
+                    "line": 263,
+                    "short_desc": "The message to be printed",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "comment": {
+            "name": "comment",
+            "line": 274,
+            "short_desc": "This prints-out a comment colored message",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "message": {
+                    "name": "message",
+                    "line": 274,
+                    "short_desc": "The message to be printed",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "block": {
+            "name": "block",
+            "line": 287,
+            "short_desc": "To print a message block",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "message": {
+                    "name": "message",
+                    "line": 287,
+                    "short_desc": "Your message",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "color": {
+                    "name": "color",
+                    "line": 287,
+                    "short_desc": "The color to set",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "'bg=blue;fg=white'",
+                    "is_by_ref": false
+                },
+                "large": {
+                    "name": "large",
+                    "line": 287,
+                    "short_desc": "If the block is large all just small (default: true)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "true",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "error": {
+            "name": "error",
+            "line": 304,
+            "short_desc": "This prints-out an error colored message",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "message": {
+                    "name": "message",
+                    "line": 304,
+                    "short_desc": "The message to be printed",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "exception": {
+            "name": "exception",
+            "line": 315,
+            "short_desc": "This handles exception and prints-out error colored message",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "e": {
+                    "name": "e",
+                    "line": 315,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Exception",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "ask": {
+            "name": "ask",
+            "line": 335,
+            "short_desc": "Ask something with a default value",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "message": {
+                    "name": "message",
+                    "line": 335,
+                    "short_desc": "The message to be printed",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "default": {
+                    "name": "default",
+                    "line": 335,
+                    "short_desc": "The default value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ],
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "\\Clarity\\Console\\int]mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "confirm": {
+            "name": "confirm",
+            "line": 350,
+            "short_desc": "To confirm that only works with [y\/n]",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "message": {
+                    "name": "message",
+                    "line": 350,
+                    "short_desc": "The message to be printed",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "callDumpAutoload": {
+            "name": "callDumpAutoload",
+            "line": 364,
+            "short_desc": "Call the composer's dumpautoload",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "TIMEOUT": {
+            "name": "TIMEOUT",
+            "line": 68,
+            "short_desc": "A default constant timeout",
+            "long_desc": ""
+        }
+    }
+}

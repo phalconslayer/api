@@ -1,0 +1,46 @@
+{
+    "name": "Clarity\\Console\\App\\ModuleCommand",
+    "line": 22,
+    "short_desc": "A console command that generate a set of module",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console\\App",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/App\/ModuleCommand.php",
+    "relative_file": null,
+    "hash": "09c0d404b7e65a4c4bfced41c72c043a503b8f1b",
+    "parent": "Clarity\\Console\\SlayerCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "SlayerCommand": "Clarity\\Console\\SlayerCommand",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 129,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

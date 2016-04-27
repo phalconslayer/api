@@ -1,0 +1,28 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Console\\Command\\Migrate",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Console\\Command",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Console\/Command\/Migrate.php",
+    "relative_file": null,
+    "hash": "df04e98bd22eddb0a1588a41d0ddb64487211f97",
+    "parent": "Phinx\\Console\\Command\\Migrate",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseMigrate": "Phinx\\Console\\Command\\Migrate",
+        "ConfigurationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait"
+    },
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

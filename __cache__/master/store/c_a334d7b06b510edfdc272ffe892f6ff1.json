@@ -1,0 +1,432 @@
+{
+    "name": "Clarity\\Facades\\FlysystemManager",
+    "line": 31,
+    "short_desc": "This is the facade calling the alias 'flysystem_manager'",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "see": [
+            [
+                "League\\Flysystem\\MountManager",
+                "for",
+                "available",
+                "methods"
+            ]
+        ],
+        "method": [
+            [
+                "mountFilesystems(array",
+                "$filesystems)"
+            ],
+            [
+                "mountFilesystem($prefix,",
+                "League\\Flysystem\\FilesystemInterface",
+                "$filesystem)"
+            ],
+            [
+                "getFilesystem(string",
+                "$adapter)"
+            ],
+            [
+                "filterPrefix(array",
+                "$arguments)"
+            ],
+            [
+                "listContents($directory",
+                "=",
+                "'',",
+                "$recursive",
+                "=",
+                "false)"
+            ],
+            [
+                "copy($from,",
+                "$to)"
+            ],
+            [
+                "listWith(array",
+                "$keys",
+                "=",
+                "[],",
+                "$directory",
+                "=",
+                "'',",
+                "$recursive",
+                "=",
+                "false)"
+            ],
+            [
+                "move($from,",
+                "$to)"
+            ],
+            [
+                "invokePluginOnFilesystem($method,",
+                "$arguments,",
+                "$prefix)"
+            ]
+        ]
+    },
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/FlysystemManager.php",
+    "relative_file": null,
+    "hash": "99a7201481edb1d4e0ed2be92c1cc484d9f749c9",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "mountFilesystems": {
+            "name": "mountFilesystems",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": null,
+            "is_by_ref": null,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "filesystems": {
+                    "name": "filesystems",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array ",
+                            null
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                }
+            }
+        },
+        "mountFilesystem": {
+            "name": "mountFilesystem",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": null,
+            "is_by_ref": null,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "prefix": {
+                    "name": "prefix",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                },
+                "filesystem": {
+                    "name": "filesystem",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "League\\Flysystem\\FilesystemInterface ",
+                            null
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                }
+            }
+        },
+        "getFilesystem": {
+            "name": "getFilesystem",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": null,
+            "is_by_ref": null,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "adapter": {
+                    "name": "adapter",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string ",
+                            null
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                }
+            }
+        },
+        "filterPrefix": {
+            "name": "filterPrefix",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": null,
+            "is_by_ref": null,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "arguments": {
+                    "name": "arguments",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array ",
+                            null
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                }
+            }
+        },
+        "listContents": {
+            "name": "listContents",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": null,
+            "is_by_ref": null,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "directory": {
+                    "name": "directory",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": "''",
+                    "is_by_ref": null
+                },
+                "recursive": {
+                    "name": "recursive",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": "false",
+                    "is_by_ref": null
+                }
+            }
+        },
+        "copy": {
+            "name": "copy",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": null,
+            "is_by_ref": null,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "from": {
+                    "name": "from",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                },
+                "to": {
+                    "name": "to",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                }
+            }
+        },
+        "listWith": {
+            "name": "listWith",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": null,
+            "is_by_ref": null,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "keys": {
+                    "name": "keys",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array ",
+                            null
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": null,
+                    "default": "[]",
+                    "is_by_ref": null
+                },
+                "directory": {
+                    "name": "directory",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": "''",
+                    "is_by_ref": null
+                },
+                "recursive": {
+                    "name": "recursive",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": "false",
+                    "is_by_ref": null
+                }
+            }
+        },
+        "move": {
+            "name": "move",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": null,
+            "is_by_ref": null,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "from": {
+                    "name": "from",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                },
+                "to": {
+                    "name": "to",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                }
+            }
+        },
+        "invokePluginOnFilesystem": {
+            "name": "invokePluginOnFilesystem",
+            "line": 31,
+            "short_desc": "",
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": null,
+            "is_by_ref": null,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "method": {
+                    "name": "method",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                },
+                "arguments": {
+                    "name": "arguments",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                },
+                "prefix": {
+                    "name": "prefix",
+                    "line": 31,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": null,
+                    "default": null,
+                    "is_by_ref": null
+                }
+            }
+        }
+    },
+    "constants": []
+}

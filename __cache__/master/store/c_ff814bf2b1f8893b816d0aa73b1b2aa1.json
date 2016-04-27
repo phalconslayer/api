@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\Auth",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'auth'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/Auth.php",
+    "relative_file": null,
+    "hash": "963d0ee2a6f92ee2a38a422ee0fb516ce6c45a68",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

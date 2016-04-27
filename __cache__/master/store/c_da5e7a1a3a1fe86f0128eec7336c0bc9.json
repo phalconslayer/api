@@ -1,0 +1,30 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Console\\Command\\Create",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Console\\Command",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Console\/Command\/Create.php",
+    "relative_file": null,
+    "hash": "b2617b9bebea43cf28ca06954969f00012d17f3d",
+    "parent": "Phinx\\Console\\Command\\Create",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseCreate": "Phinx\\Console\\Command\\Create",
+        "MigrationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\MigrationTrait",
+        "ConfigurationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\MigrationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\MigrationTrait",
+        "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait"
+    },
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

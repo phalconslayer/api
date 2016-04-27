@@ -1,0 +1,50 @@
+{
+    "name": "Clarity\\Console\\Clear\\AllCommand",
+    "line": 24,
+    "short_desc": "A console command that calls all the clear commands",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console\\Clear",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/Clear\/AllCommand.php",
+    "relative_file": null,
+    "hash": "2b55d49516570e9b186ae2226abed97d6fa435d8",
+    "parent": "Clarity\\Console\\SlayerCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "CLI": "Clarity\\Console\\CLI",
+        "SlayerCommand": "Clarity\\Console\\SlayerCommand",
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Clarity\\Console\\Clear\\ClearTrait": "Clarity\\Console\\Clear\\ClearTrait"
+    },
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 41,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

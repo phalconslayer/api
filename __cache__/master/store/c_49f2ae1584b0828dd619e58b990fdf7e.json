@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Exceptions\\ControllerNotFoundException",
+    "line": 19,
+    "short_desc": "An exception known for Controller or Action not found",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Exceptions",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Exceptions\/ControllerNotFoundException.php",
+    "relative_file": null,
+    "hash": "52320e5f2a7fac91ae1f68876229306ec85c8f95",
+    "parent": "Clarity\\Exceptions\\Handler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

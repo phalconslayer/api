@@ -1,0 +1,40 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Db\\Table",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Db",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Db\/Table.php",
+    "relative_file": null,
+    "hash": "360257454e356508f856e515ae346ee603bfb0ad",
+    "parent": "Phinx\\Db\\Table",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "PhinxTable": "Phinx\\Db\\Table"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "addSoftDeletes": {
+            "name": "addSoftDeletes",
+            "line": 20,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

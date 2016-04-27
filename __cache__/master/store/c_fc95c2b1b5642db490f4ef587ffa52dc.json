@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Exceptions\\ServiceAliasNotFoundException",
+    "line": 19,
+    "short_desc": "An exception known when a service provider does not have an alias",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Exceptions",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Exceptions\/ServiceAliasNotFoundException.php",
+    "relative_file": null,
+    "hash": "c9a99ae429ccd0c58fff078de77a4d704caa9700",
+    "parent": "Clarity\\Exceptions\\Handler",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

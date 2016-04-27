@@ -1,0 +1,38 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\MigrationTrait",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Console\\Command\\Traits",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Console\/Command\/Traits\/MigrationTrait.php",
+    "relative_file": null,
+    "hash": "0733c59ccb4b824e740b9ef2c2001c075d094e24",
+    "parent": null,
+    "modifiers": "Stmt_Trait",
+    "is_trait": true,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getMigrationTemplateFilename": {
+            "name": "getMigrationTemplateFilename",
+            "line": 18,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

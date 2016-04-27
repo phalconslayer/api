@@ -1,0 +1,67 @@
+{
+    "name": "Clarity\\Providers\\Dispatcher",
+    "line": 27,
+    "short_desc": "This provider dispatch\/process of taking the request object, extracting the\nmodule name, controller name, action name, and optional parameters\ncontained in it, and then instantiating a controller and calling an\naction of that controller.",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Dispatcher.php",
+    "relative_file": null,
+    "hash": "6efd9bb6733618496a79956cb10f0c097a435239",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "EventsManager": "Phalcon\\Events\\Manager",
+        "MvcDispatcher": "Phalcon\\Mvc\\Dispatcher",
+        "ControllerNotFoundException": "Clarity\\Exceptions\\ControllerNotFoundException",
+        "DispatchException": "Phalcon\\Mvc\\Dispatcher\\Exception"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "boot": {
+            "name": "boot",
+            "line": 42,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "register": {
+            "name": "register",
+            "line": 66,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

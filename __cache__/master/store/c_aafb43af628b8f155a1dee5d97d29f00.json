@@ -1,0 +1,45 @@
+{
+    "name": "Clarity\\Providers\\Flash",
+    "line": 22,
+    "short_desc": "This component helps to separate session data into \u201cnamespaces\u201d.",
+    "long_desc": "Working by this way you can easily create groups of session variables into the application",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Flash.php",
+    "relative_file": null,
+    "hash": "4a99279cc43e3f50a49e6830028589a1cd887743",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "PhalconSessionBag": "Phalcon\\Session\\Bag"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 37,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

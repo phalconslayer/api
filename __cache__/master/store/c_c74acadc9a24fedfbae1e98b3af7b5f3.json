@@ -1,0 +1,75 @@
+{
+    "name": "Clarity\\View\\Volt\\VoltAdapter",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\View\\Volt",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/View\/Volt\/VoltAdapter.php",
+    "relative_file": null,
+    "hash": "ee2d082798064889765550550ac37ea98f01083f",
+    "parent": "Phalcon\\Mvc\\View\\Engine\\Volt",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "DiInterface": "Phalcon\\DiInterface",
+        "Volt": "Phalcon\\Mvc\\View\\Engine\\Volt",
+        "ViewBaseInterface": "Phalcon\\Mvc\\ViewBaseInterface"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 43,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "view": {
+                    "name": "view",
+                    "line": 44,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Phalcon\\Mvc\\ViewBaseInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Phalcon\\Mvc\\ViewBaseInterface",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "di": {
+                    "name": "di",
+                    "line": 45,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Phalcon\\DiInterface",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Phalcon\\DiInterface",
+                    "default": "NULL",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Clarity\\Providers\\Flysystem",
+    "line": 23,
+    "short_desc": "This provider manages all available file system adapters such as local, aws\ncopy, ftp, rackspace and more",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Flysystem.php",
+    "relative_file": null,
+    "hash": "95b07ab5ae1c21fe477e57af966e980dfabd64c8",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Filesystem": "League\\Flysystem\\Filesystem",
+        "MountManager": "League\\Flysystem\\MountManager"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 38,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Console\\Command\\Test",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Console\\Command",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Console\/Command\/Test.php",
+    "relative_file": null,
+    "hash": "eefe6ee738499196ed2fec806c05b9ef8b55d53c",
+    "parent": "Phinx\\Console\\Command\\Test",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

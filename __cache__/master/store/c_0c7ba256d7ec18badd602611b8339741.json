@@ -1,0 +1,46 @@
+{
+    "name": "Clarity\\Providers\\Application",
+    "line": 23,
+    "short_desc": "This provider handles the @see \\Phalcon\\Mvc\\Application\nand also having an option to add a module",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Application.php",
+    "relative_file": null,
+    "hash": "e4d5899c01de4546ba66e221e1421bdb92229118",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Facade": "Clarity\\Facades\\Facade",
+        "BaseApplication": "Phalcon\\Mvc\\Application"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 38,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

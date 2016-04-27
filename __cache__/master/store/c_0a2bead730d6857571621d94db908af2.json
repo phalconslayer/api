@@ -1,0 +1,45 @@
+{
+    "name": "Clarity\\Lang\\LangServiceProvider",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Lang",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Lang\/LangServiceProvider.php",
+    "relative_file": null,
+    "hash": "73ccd54dff649500434b41382c551afe29252fa9",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ServiceProvider": "Clarity\\Providers\\ServiceProvider"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 23,
+            "short_desc": "Registered process based on DI scope",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

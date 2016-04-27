@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\Response",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'response'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/Response.php",
+    "relative_file": null,
+    "hash": "8dc7e4ad5b0ffbaa1249b25cb6010425e423d861",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

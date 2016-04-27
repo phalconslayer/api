@@ -1,0 +1,64 @@
+{
+    "name": "Clarity\\TestSuite\\Behat\\Mink\\Adapters\\DriverInterface",
+    "line": 16,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\TestSuite\\Behat\\Mink\\Adapters",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/TestSuite\/Behat\/Mink\/Adapters\/DriverInterface.php",
+    "relative_file": null,
+    "hash": "7a97b27758a06533da6cfa77c2d26349fbe08399",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 18,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "args": {
+                    "name": "args",
+                    "line": 18,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "driver": {
+            "name": "driver",
+            "line": 20,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

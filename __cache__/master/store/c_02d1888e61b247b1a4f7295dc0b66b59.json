@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\Config",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'config'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/Config.php",
+    "relative_file": null,
+    "hash": "29ee98d1e55403ff3cbf109d2487900eedc7348e",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

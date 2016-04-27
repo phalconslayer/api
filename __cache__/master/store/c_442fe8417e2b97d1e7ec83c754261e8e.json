@@ -1,0 +1,41 @@
+{
+    "name": "Clarity\\Util\\Composer\\TestConsole",
+    "line": 7,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Util\\Composer",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Util\/Composer\/TestConsole.php",
+    "relative_file": null,
+    "hash": "323953a1054affdca344bb6794a1e6f53626d360",
+    "parent": "Clarity\\Util\\Composer\\Console",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "InputOption": "Symfony\\Component\\Console\\Input\\InputOption",
+        "InputArgument": "Symfony\\Component\\Console\\Input\\InputArgument"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 16,
+            "short_desc": "Add your code below",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

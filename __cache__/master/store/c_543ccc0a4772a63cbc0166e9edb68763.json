@@ -1,0 +1,25 @@
+{
+    "name": "Clarity\\Lang\\LangFacade",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Lang",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Lang\/LangFacade.php",
+    "relative_file": null,
+    "hash": "c273db715acb8033fa298d771e42c15effc07384",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Facade": "Clarity\\Facades\\Facade"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

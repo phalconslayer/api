@@ -1,0 +1,46 @@
+{
+    "name": "Clarity\\Console\\Server\\EnvCommand",
+    "line": 22,
+    "short_desc": "A console command that determines the current environment",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console\\Server",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/Server\/EnvCommand.php",
+    "relative_file": null,
+    "hash": "bffa4e70c7779e3f710f46bbb8a47803562a11d1",
+    "parent": "Clarity\\Console\\SlayerCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "CLI": "Clarity\\Console\\CLI",
+        "SlayerCommand": "Clarity\\Console\\SlayerCommand"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 37,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

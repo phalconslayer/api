@@ -1,0 +1,45 @@
+{
+    "name": "Clarity\\Providers\\Filter",
+    "line": 25,
+    "short_desc": "This provider handles the filter component of Phalcon Framework",
+    "long_desc": "Sanitizing is the process which removes specific characters from a value,\nthat are not required or desired by the user or application.\nBy sanitizing input we ensure that application integrity will be intact.",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Filter.php",
+    "relative_file": null,
+    "hash": "d3a2623f8e4c8733142d03d352acef6f533faa20",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseFilter": "Phalcon\\Filter"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 40,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

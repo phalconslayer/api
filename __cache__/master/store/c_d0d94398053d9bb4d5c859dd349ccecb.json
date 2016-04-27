@@ -1,0 +1,28 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Console\\Command\\Rollback",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Console\\Command",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Console\/Command\/Rollback.php",
+    "relative_file": null,
+    "hash": "6b639c26031bcff74b7f230714ec21133bc37913",
+    "parent": "Phinx\\Console\\Command\\Rollback",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseRollback": "Phinx\\Console\\Command\\Rollback",
+        "ConfigurationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait"
+    },
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

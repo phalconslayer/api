@@ -1,0 +1,232 @@
+{
+    "name": "Clarity\\Providers\\ServiceProvider",
+    "line": 23,
+    "short_desc": "This is the abstract provider that could manage class extenders",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/ServiceProvider.php",
+    "relative_file": null,
+    "hash": "dd6e4cc7ffec6452166aa73cf3c77f2104fbf179",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Exception": "Exception",
+        "ServiceMagicMethods": "Clarity\\Services\\ServiceMagicMethods",
+        "ServiceAliasNotFoundException": "Clarity\\Exceptions\\ServiceAliasNotFoundException"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Clarity\\Services\\ServiceMagicMethods": "Clarity\\Services\\ServiceMagicMethods"
+    },
+    "properties": [],
+    "methods": {
+        "getShared": {
+            "name": "getShared",
+            "line": 56,
+            "short_desc": "Get the provider if it is a shared or not",
+            "long_desc": "",
+            "hint": [
+                [
+                    "boolean",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAlias": {
+            "name": "getAlias",
+            "line": 66,
+            "short_desc": "Get the service alias when accessing to di()->get(<alias>)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAfterModule": {
+            "name": "getAfterModule",
+            "line": 82,
+            "short_desc": "To determine if this service must be called after module",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "callRegister": {
+            "name": "callRegister",
+            "line": 93,
+            "short_desc": "Call the register() function who extends this class\nby default, register() will return a false result",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "boot": {
+            "name": "boot",
+            "line": 111,
+            "short_desc": "The process after all di are loaded",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "register": {
+            "name": "register",
+            "line": 121,
+            "short_desc": "Registered process based on DI scope",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "17",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "publish": {
+            "name": "publish",
+            "line": 131,
+            "short_desc": "Folders or Files to be copied from going to application path",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "paths": {
+                    "name": "paths",
+                    "line": 131,
+                    "short_desc": "The array paths to be copied from and to",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "array",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "tag": {
+                    "name": "tag",
+                    "line": 131,
+                    "short_desc": "The tag name to be triggered upon running command",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        },
+        "getToBePublished": {
+            "name": "getToBePublished",
+            "line": 147,
+            "short_desc": "Get published stacks based on tag",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Stack of all publish keys",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tag": {
+                    "name": "tag",
+                    "line": 147,
+                    "short_desc": "The tag name to be triggered upon running command",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "null",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

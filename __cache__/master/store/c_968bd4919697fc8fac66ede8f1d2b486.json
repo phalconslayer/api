@@ -1,0 +1,64 @@
+{
+    "name": "Clarity\\View\\Blade\\BladeAdapter",
+    "line": 19,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\View\\Blade",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/View\/Blade\/BladeAdapter.php",
+    "relative_file": null,
+    "hash": "c20fc608ff23ab7eb473e8d5e0f4f3596b76f5db",
+    "parent": "Phalcon\\Mvc\\View\\Engine",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Blade": "Jenssegers\\Blade\\Blade",
+        "Engine": "Phalcon\\Mvc\\View\\Engine"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "render": {
+            "name": "render",
+            "line": 21,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 21,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": null,
+                    "is_by_ref": false
+                },
+                "params": {
+                    "name": "params",
+                    "line": 21,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": "",
+                    "default": "array()",
+                    "is_by_ref": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

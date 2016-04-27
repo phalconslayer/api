@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\BehatMink",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'behat_mink'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/BehatMink.php",
+    "relative_file": null,
+    "hash": "85cd047980fa0e85a0add8b0b4570b232caccfbd",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

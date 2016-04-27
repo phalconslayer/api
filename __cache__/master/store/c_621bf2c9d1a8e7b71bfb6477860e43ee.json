@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\Cache",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'cache'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/Cache.php",
+    "relative_file": null,
+    "hash": "044d0b4b58d14ff841dad100a6c106709331b508",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

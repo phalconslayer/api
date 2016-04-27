@@ -1,0 +1,25 @@
+{
+    "name": "Clarity\\Mail\\MailFacade",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Mail",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Mail\/MailFacade.php",
+    "relative_file": null,
+    "hash": "fa12aea28b20cdd96f2c9a4d0a70d52c338d2fdb",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Facade": "Clarity\\Facades\\Facade"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

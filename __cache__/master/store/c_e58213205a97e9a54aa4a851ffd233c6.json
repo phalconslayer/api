@@ -1,0 +1,47 @@
+{
+    "name": "Clarity\\Providers\\Log",
+    "line": 24,
+    "short_desc": "This provider handles the logging, which by default logs the errors, database\ntransactions",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Log.php",
+    "relative_file": null,
+    "hash": "a6274e3d6ee9c0a52fa5b38b9e19bb0b507a2eec",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Exception": "Exception",
+        "Logger": "Monolog\\Logger",
+        "StreamHandler": "Monolog\\Handler\\StreamHandler"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 39,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

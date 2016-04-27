@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\Session",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'session'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/Session.php",
+    "relative_file": null,
+    "hash": "8849b126ab6624bbdb3ad14f3195e135c9f94c6c",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

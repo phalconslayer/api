@@ -1,0 +1,45 @@
+{
+    "name": "Clarity\\Providers\\RouterAnnotations",
+    "line": 22,
+    "short_desc": "This provider provides an alternative way to create routes by inserting\nannotations inside controller's action",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/RouterAnnotations.php",
+    "relative_file": null,
+    "hash": "44bf74856b26a6c1e2657d7f6ea94edb77c2f764",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseRouter": "Phalcon\\Mvc\\Router\\Annotations"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 40,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

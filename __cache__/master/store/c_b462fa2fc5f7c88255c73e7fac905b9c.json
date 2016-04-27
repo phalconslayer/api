@@ -1,0 +1,46 @@
+{
+    "name": "Clarity\\Console\\DB\\SeedFactory",
+    "line": 22,
+    "short_desc": "A console command that fills\/seeds the database",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Console\\DB",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Console\/DB\/SeedFactory.php",
+    "relative_file": null,
+    "hash": "c6cf6f795f3dcf674bf205bbd881f80eabc3ced4",
+    "parent": "Clarity\\Console\\SlayerCommand",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Factory": "Clarity\\Support\\DB\\Factory",
+        "SlayerCommand": "Clarity\\Console\\SlayerCommand"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "slash": {
+            "name": "slash",
+            "line": 37,
+            "short_desc": "An abstract function that will be called on every providers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

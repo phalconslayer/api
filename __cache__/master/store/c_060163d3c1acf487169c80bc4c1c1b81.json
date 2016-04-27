@@ -1,0 +1,70 @@
+{
+    "name": "Clarity\\View\\ViewServiceProvider",
+    "line": 24,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\View",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/View\/ViewServiceProvider.php",
+    "relative_file": null,
+    "hash": "3c7ea288942517e2922a1dd15ab5b5a80f719a09",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Event": "Phalcon\\Events\\Event",
+        "Manager": "Phalcon\\Events\\Manager",
+        "Php": "Phalcon\\Mvc\\View\\Engine\\Php",
+        "VoltAdapter": "Clarity\\View\\Volt\\VoltAdapter",
+        "BladeAdapter": "Clarity\\View\\Blade\\BladeAdapter",
+        "View": "Clarity\\Support\\Phalcon\\Mvc\\View",
+        "ServiceProvider": "Clarity\\Providers\\ServiceProvider"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "boot": {
+            "name": "boot",
+            "line": 29,
+            "short_desc": "The process after all di are loaded",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "register": {
+            "name": "register",
+            "line": 49,
+            "short_desc": "Registered process based on DI scope",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

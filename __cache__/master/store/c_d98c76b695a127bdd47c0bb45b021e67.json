@@ -1,0 +1,23 @@
+{
+    "name": "Clarity\\Facades\\DB",
+    "line": 19,
+    "short_desc": "This is the facade calling the alias 'db'",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Facades",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Facades\/DB.php",
+    "relative_file": null,
+    "hash": "0d18bccedf8b820c559672f42978e417a108dcb0",
+    "parent": "Clarity\\Facades\\Facade",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

@@ -1,0 +1,43 @@
+{
+    "name": "Clarity\\Contracts\\Flysystem\\AdapterInterface",
+    "line": 19,
+    "short_desc": "An adapter interface for flysystem",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Contracts\\Flysystem",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Contracts\/Flysystem\/AdapterInterface.php",
+    "relative_file": null,
+    "hash": "3927f3c07e43cd51a72f30b189429d9ef988b18d",
+    "parent": null,
+    "modifiers": "Stmt_Interface",
+    "is_trait": false,
+    "is_interface": true,
+    "aliases": [],
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getAdapter": {
+            "name": "getAdapter",
+            "line": 26,
+            "short_desc": "Get the adapter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

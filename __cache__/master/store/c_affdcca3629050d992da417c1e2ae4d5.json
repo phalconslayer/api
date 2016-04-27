@@ -1,0 +1,45 @@
+{
+    "name": "Clarity\\Providers\\MetadataAdapter",
+    "line": 25,
+    "short_desc": "This provider is required when querying fields using Phalcon Models.",
+    "long_desc": "To speed up development Phalcon\\Mvc\\Model helps you to query fields and\nconstraints from tables related to models. To achieve this,\nPhalcon\\Mvc\\Model\\MetaData is available to manage and cache table meta-data.",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/MetadataAdapter.php",
+    "relative_file": null,
+    "hash": "c9e11848ac5d6d19dfeb0e4c11072e15bbc5eacd",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "Memory": "Phalcon\\Mvc\\Model\\Metadata\\Memory"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 40,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

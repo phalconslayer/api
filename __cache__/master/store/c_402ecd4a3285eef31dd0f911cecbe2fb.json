@@ -1,0 +1,30 @@
+{
+    "name": "Clarity\\Support\\Phinx\\Console\\Command\\SeedCreate",
+    "line": 20,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Support\\Phinx\\Console\\Command",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Support\/Phinx\/Console\/Command\/SeedCreate.php",
+    "relative_file": null,
+    "hash": "d6f6dfd566a4f3d70b474e5b0953c903e8e425d7",
+    "parent": "Phinx\\Console\\Command\\SeedCreate",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "BaseSeedCreate": "Phinx\\Console\\Command\\SeedCreate",
+        "SeedTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\SeedTrait",
+        "ConfigurationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": {
+        "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\SeedTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\SeedTrait",
+        "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait": "Clarity\\Support\\Phinx\\Console\\Command\\Traits\\ConfigurationTrait"
+    },
+    "properties": [],
+    "methods": [],
+    "constants": []
+}

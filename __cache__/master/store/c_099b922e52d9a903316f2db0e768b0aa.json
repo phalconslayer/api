@@ -1,0 +1,58 @@
+{
+    "name": "Clarity\\Providers\\Console",
+    "line": 22,
+    "short_desc": "This provider register all the assigned consoles which basically\nmanages them and injecting those to be part of the commands",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Providers",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Providers\/Console.php",
+    "relative_file": null,
+    "hash": "bbf14fd72118eabf4e92cf50dca749820d660181",
+    "parent": "Clarity\\Providers\\ServiceProvider",
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ConsoleApplication": "Symfony\\Component\\Console\\Application"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "register": {
+            "name": "register",
+            "line": 42,
+            "short_desc": "{@inheridoc}",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "VERSION": {
+            "name": "VERSION",
+            "line": 27,
+            "short_desc": "The current system version",
+            "long_desc": ""
+        },
+        "DESCRIPTION": {
+            "name": "DESCRIPTION",
+            "line": 32,
+            "short_desc": "The console description which holds the copywright",
+            "long_desc": ""
+        }
+    }
+}

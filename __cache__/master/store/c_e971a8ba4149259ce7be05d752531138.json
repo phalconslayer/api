@@ -1,0 +1,71 @@
+{
+    "name": "Clarity\\Services\\Service\\ServiceContainer",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "Clarity\\Services\\Service",
+    "file": "\/var\/www\/phalconslayer\/api\/..\/framework\/src\/Clarity\/Services\/Service\/ServiceContainer.php",
+    "relative_file": null,
+    "hash": "0e7ecd19da5f172b202db0c1ff96fd485af15200",
+    "parent": null,
+    "modifiers": "Stmt_Class",
+    "is_trait": false,
+    "is_interface": false,
+    "aliases": {
+        "ServiceProvider": "Clarity\\Providers\\ServiceProvider"
+    },
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "addServiceProvider": {
+            "name": "addServiceProvider",
+            "line": 22,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "provider": {
+                    "name": "provider",
+                    "line": 22,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Clarity\\Providers\\ServiceProvider",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": "Clarity\\Providers\\ServiceProvider",
+                    "default": null,
+                    "is_by_ref": false
+                }
+            }
+        },
+        "boot": {
+            "name": "boot",
+            "line": 29,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": "1",
+            "is_by_ref": "",
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}
